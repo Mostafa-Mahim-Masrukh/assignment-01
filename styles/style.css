@@ -108,11 +108,13 @@ color: white;
   .why-web-dev{
     text-align: center;
     background-color: #efefef;
+    border-radius: 10px;
 
   }
   .why-web-dev-container{
     margin: 80px 100px;
     padding: 20px;
+   
   }
 
   /* card or group design  */
@@ -152,4 +154,12 @@ color: white;
   .card img{
     width: 220px;
     height: 190px;
+  }
+
+  /* <!-- my inspiration section  --> */
+
+  .inspiration{
+    text-align: center;
+    max-width: 900px;
+    margin: 5px auto;
   }
