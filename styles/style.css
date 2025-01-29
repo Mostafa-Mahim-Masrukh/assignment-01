@@ -36,6 +36,16 @@ margin-bottom: 30px;
    
   }
 
+  .my-target-boxs button{
+    border: none;
+    background-color: transparent;
+  }
+  .my-target-boxs button a{
+    color: black;
+    font-size: 14px;
+  }
+
+
   /* header navbar styles  */
   .menu{
     display: flex;
@@ -162,4 +172,47 @@ color: white;
     text-align: center;
     max-width: 900px;
     margin: 5px auto;
+  }
+
+  /* <!-- my current target section --> */
+
+  .my-target{
+    margin-top: 70px;
+  }
+  .my-target-container{
+    text-align: center;
+    max-width: 900px;
+    margin:5px auto ;
+  }
+
+  .my-target-boxs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .box{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #html-box{
+    background-color: #f3573022;
+    padding: 20px;  box-shadow: 10px 10px 8px #888888;
+  }
+  .box-description{
+    font-size: 15px;
+    opacity: 50%;
+  }
+.box img{
+  height: 35px;
+  width: 35px;
+}
+  #css-box{
+    background-color: #004de81e;
+    padding: 20px;  box-shadow: 10px 10px 8px #888888;
+  }
+  #js-box{
+    background-color: #ffdd0025;
+    padding: 20px;  box-shadow: 10px 10px 8px #888888;
   }
