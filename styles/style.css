@@ -261,9 +261,8 @@ padding: 15px;
 /* footer section styles  */
 .footer-section{
   margin: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/handshake.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/handshake.jpg");
   background-position: center;
-  /* background-blend-mode:multiply; */
   max-width: 1140px;
   text-align: center;
   padding: 30px;
